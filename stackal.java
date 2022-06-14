@@ -1,3 +1,5 @@
+// import java.util.Stack; (2nd part)
+
 import java.util.ArrayList;
 public class test {
     static class Stack {
@@ -28,6 +30,7 @@ public class test {
     }
     public static void main(String args[]) {
         Stack stack = new Stack();
+        // Stack<Integer> stack = new Stack<>(); (2nd part)
         stack.push(1);
         stack.push(2);
         stack.push(3);
